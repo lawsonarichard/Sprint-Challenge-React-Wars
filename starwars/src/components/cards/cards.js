@@ -13,7 +13,7 @@ export default function CardBodyExample() {
         const [gender, setGender] = useState([]);
         useEffect(() => {
         axios
-        .get(`https://swapi.co/api/people/1/`)
+        .get(`https://swapi.co/api/people/4`)
         .then( res => {
             console.log(res.data);
             const name = res.data.name;
@@ -41,7 +41,7 @@ export default function CardBodyExample() {
       <Row>
         <Col>
           <Card>
-            <CardImg top src="https://place-hold.it/300x200" />
+            <CardImg top src="https://www.lego.com/r/www/r/catalogs/-/media/catalogs/characters/star%20wars/new%20thumbnails/darth_vader-thumb.png" />
             <CardBody>
               <p>{name}</p>
               <p>Gender: {gender}</p>
@@ -55,14 +55,7 @@ export default function CardBodyExample() {
           </Card>
         </Col>
 
-        <Col>
-          <Card>
-            <CardBody>
-              <p>This is the body of the card.</p>
-            </CardBody>
-            <CardImg bottom src="https://place-hold.it/300x200" />
-          </Card>
-        </Col>
+        
       </Row>
     </Container>
   );

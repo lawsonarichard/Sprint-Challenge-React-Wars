@@ -1,8 +1,23 @@
+@font-face {
+  font-family: 'star_jediregular';
+  src: url('starjedi-webfont.woff2') format('woff2'),
+       url('starjedi-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
 .App {
   text-align: center;
+  font-family: 'star_jediregular';
 }
 .Header {
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
+  font-family: 'star_jediregular';
 }
+.row {
+  width: 50% !important;
+
+}
+
 /* write your parent styles in here for your App.js */
