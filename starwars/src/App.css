@@ -9,15 +9,25 @@
 .App {
   text-align: center;
   font-family: 'star_jediregular';
+  width: 1280px;
+  margin: 0 auto;
 }
 .Header {
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
   font-family: 'star_jediregular';
 }
-.row {
-  width: 50% !important;
-
+.container {
+  width: 25% !important;
+  margin-left: 10px;
+  margin-bottom: 10px;
 }
-
+.cardWrapper {
+  width: 100%;
+  display:flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap:wrap;
+  margin: 0 auto;
+}
 /* write your parent styles in here for your App.js */
