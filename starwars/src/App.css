@@ -30,4 +30,30 @@
   flex-wrap:wrap;
   margin: 0 auto;
 }
+.characterImage {
+  width:200px;
+  height:300px;
+}
+
+.card {
+  background-color:transparent !important;
+}
+
+.container:nth-child(1){
+background-image: url('https://i.ebayimg.com/images/g/7gUAAOSwDfxa3IS8/s-l300.jpg');
+background-repeat: no-repeat;
+background-position: 15px;
+    background-position-y: 0px; 
+background-color:white;
+}
+.container:nth-child(2){
+  background-image: url('https://i5.walmartimages.com/asr/c5dbb2cd-ec30-435a-b70b-8cf19f52f28e_1.3f26ad0ca70407cf094ee9d05864318f.png');
+  background-repeat:no-repeat;
+  background-position: 15px;
+    background-position-y: 0px;
+    background-color:white;
+}
+.container:nth-child(3) {
+  background-image: url('https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwifwJnQ8sHjAhXQpZ4KHcX0AY8QjRx6BAgBEAU&url=http%3A%2F%2Fen.brickimedia.org%2Fwiki%2FR2-D2&psig=AOvVaw2u1t9fW7ZLKLpeHYG8YuRc&ust=1563657059442363');
+}
 /* write your parent styles in here for your App.js */

@@ -12,7 +12,7 @@ const Cards = ({ characters }) => (
           <Card>
             
             <CardBody>
-    
+            <div className="characterImage"></div>
             <p>{character.name}</p>
             <p>Height: {character.height}</p>
             <p>Mass: {character.mass}</p>
